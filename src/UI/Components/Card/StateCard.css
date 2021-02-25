@@ -1,0 +1,77 @@
+.state-cases {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 100%;
+  margin: 2% 0px 3% 0px;
+}
+
+.state-cases,
+.confirmed-cases,
+.cases-on-admission,
+.discharged,
+.state-death {
+  width: 100%;
+  font-size: 8px;
+}
+
+.confirmed-cases,
+.cases-on-admission,
+.discharged,
+.state-death {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3%;
+}
+
+.what-state {
+  color: #191970;
+}
+
+.cases {
+  border: 1px solid #191970;
+  margin: 0px 5% 1% 0px;
+  border-radius: 5px;
+  width: 39%;
+  text-align: center;
+  height: 60px;
+}
+
+.tem1,
+.tem2,
+.tem3,
+.tem4 {
+  margin-top: 13%;
+}
+
+.d1 {
+  background-color: red;
+}
+
+.t-d1 {
+  background: #006400;
+}
+
+.t-c-c1 {
+  background: yellow;
+  color: black;
+}
+
+.t-s-t1 {
+  background: #8b4513;
+}
+
+.t-s-t1,
+.d1,
+.t-d1 {
+  color: #ffffff;
+  border: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .state-cases {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 0px 3% 10%;
+  }
+}

@@ -1,0 +1,91 @@
+.total-cases {
+  margin-left: 26%;
+}
+
+.total-cases,
+.total-sample-tested,
+.total-confirmed-cases,
+.total-active-cases,
+.total-discharged,
+.death {
+  width: 100%;
+  font-size: 12px;
+}
+
+.total-sample-tested,
+.total-confirmed-cases,
+.total-active-cases,
+.total-discharged,
+.death {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.border {
+  border: 1px solid black;
+  margin: 0px 20% 1% 0px;
+  border-radius: 5px;
+  width: 16%;
+  text-align: center;
+  height: 60px;
+}
+
+.d1 {
+  background-color: red;
+}
+
+.t-d1 {
+  background: #006400;
+}
+
+.t-c-c1 {
+  background: yellow;
+  color: black;
+}
+
+.t-s-t1 {
+  background: #8b4513;
+}
+
+.t-s-t1,
+.d1,
+.t-d1 {
+  color: #ffffff;
+  border: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .total-cases {
+    margin: 14% 0px 15px 2%;
+  }
+
+  .total-cases,
+  .total-sample-tested,
+  .total-confirmed-cases,
+  .total-active-cases,
+  .total-discharged,
+  .death {
+    width: 160%;
+    font-size: 8px;
+  }
+
+  .border {
+    margin: 0px 5% 3% 0px;
+    border-radius: 5px;
+    width: 16%;
+    text-align: center;
+    height: 60px;
+  }
+
+  .item1,
+  .item2b,
+  .item3,
+  .item4,
+  .item5 {
+    margin-top: 16%;
+  }
+
+  .item2a {
+    margin-top: 10%;
+  }
+}
